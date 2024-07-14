@@ -1,0 +1,241 @@
+(footprint "L_Wuerth_HCI-1040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth Elektronik, Wuerth_HCI-1040, 10.2mmx10.2mm")
+	(tags "inductor Wuerth hci smd")
+	(property "Reference" "REF**"
+		(at -0.1 -0.4 -90)
+		(layer "F.SilkS")
+		(uuid "7bb72719-48bd-4506-a658-695ad69a6bb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "22uh"
+		(at 0 6.6 180)
+		(layer "F.Fab")
+		(uuid "3e52d8e9-5365-4680-a950-fc05668f85ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DuRuofu_L:L_Wuerth_HCI-1040"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19c2c3c5-a434-4a8f-b759-f696770f86ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff5b16f7-b952-4e41-878c-cc0680322dfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e0b7277-1e86-4bb0-9583-60bef25bdc0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.2 -5.2)
+		(end 5.2 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5989446f-f4d0-4c22-812f-23b1b58a3aaa")
+	)
+	(fp_line
+		(start -5.2 -2.4)
+		(end -5.2 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51faee1a-a398-4041-a63b-e034abb56a0d")
+	)
+	(fp_line
+		(start -5.2 2.4)
+		(end -5.2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf5c4188-c788-4ff6-b4bc-c701bfe24286")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end 5.2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb0cba49-3d20-4b70-8d27-f6e238199f46")
+	)
+	(fp_line
+		(start 5.2 -5.2)
+		(end 5.2 -2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58250ef5-d4ef-4cca-ad19-31a26452ce36")
+	)
+	(fp_line
+		(start 5.2 5.2)
+		(end 5.2 2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad86b478-6d08-4315-9087-07604d0c19e5")
+	)
+	(fp_line
+		(start -6 -5.35)
+		(end -6 5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d11645c-f209-424e-919a-bf991013c65c")
+	)
+	(fp_line
+		(start -6 5.35)
+		(end 6 5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad469836-189d-4a07-a466-829abde4d342")
+	)
+	(fp_line
+		(start 6 -5.35)
+		(end -6 -5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d3de36a-fc97-4068-86a6-e42b4cd4ef6d")
+	)
+	(fp_line
+		(start 6 5.35)
+		(end 6 -5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a037ee1c-d624-471f-a7c1-fbb637eb9f0e")
+	)
+	(fp_line
+		(start -5.1 -5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ad678bc-69ad-475e-9aa7-a1fd1ed3a9ec")
+	)
+	(fp_line
+		(start -5.1 5.1)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c63e749d-348c-485d-ab5a-42544d699fd4")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end -5.1 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67f313ab-bef4-4de5-bace-9ce163259b01")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59af2804-3cc0-4aa8-a405-3060d069bc24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "941a9526-4bdf-4cd4-b77e-ebd712a89d13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 0)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5114d04c-ae37-405f-8215-a18600fa6b13")
+	)
+	(pad "2" smd rect
+		(at 4 0)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5350aaed-ae15-42f9-a668-42bf28fb1803")
+	)
+	(model "${KIPRJMOD}/packages3D/L_Wuerth_HCI-1040.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

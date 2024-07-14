@@ -1,0 +1,260 @@
+(footprint "HDR-TH_2P-P2.00-V-F-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2634 -2.3274 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e1e7d2f-9138-49f4-b453-30c4e114395d")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at -0.2634 -4.1054 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a97367a9-3158-42e0-a317-acab598d2796")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" "myself:HDR-TH_2P-P2.00-V-F-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45b554b7-ce99-4b47-866c-c48bd7f81cfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4906545-09d1-43ee-9540-2193569f0f9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecf99ac3-cf58-42d8-9ba6-45d416fedf03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -2.14 -1.35)
+		(end 2.1201 -1.35)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e69a0082-c481-4b08-95a4-9d8d435d38f8")
+	)
+	(fp_line
+		(start -2.14 1.32)
+		(end -2.14 -1.35)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31bbc0cd-8954-4f02-8bb2-7b490e344c2b")
+	)
+	(fp_line
+		(start 2.1201 -1.35)
+		(end 2.1201 1.32)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bdb56e05-c933-42a0-86d7-47a653275c7e")
+	)
+	(fp_line
+		(start 2.1201 1.32)
+		(end -2.14 1.32)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1b53d10-6069-4237-8eb7-bfdc684426af")
+	)
+	(fp_circle
+		(center -2 1.1999)
+		(end -1.97 1.1999)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "91de9baa-f23b-4e34-9d97-0fbacfa32572")
+	)
+	(pad "1" thru_hole rect
+		(at -1 0)
+		(size 1.4 1.4)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b046e4e7-5c90-4adf-ab0e-2890abcda5bc")
+	)
+	(pad "2" thru_hole oval
+		(at 1 0)
+		(size 1.4 1.4)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e6da1447-83d0-4c64-93e6-ebe435b0f912")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.3")
+		(uuid "b506ef0e-8a04-47ba-b32c-2c76fdb6ecf0")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 319.8965 213.5985) (xy 323.8965 213.5985) (xy 323.8965 215.9985) (xy 319.8965 215.9985)
+			)
+		)
+		(filled_polygon
+			(layer "User.3")
+			(island)
+			(pts
+				(xy 319.8965 213.5985) (xy 323.8965 213.5985) (xy 323.8965 215.9985) (xy 319.8965 215.9985)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "0918ca42-1d72-4d23-b63d-9d2b3d748591")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 320.6465 214.6985) (xy 321.1465 214.6985) (xy 321.1465 214.8985) (xy 320.6465 214.8985)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy 320.6465 214.6985) (xy 321.1465 214.6985) (xy 321.1465 214.8985) (xy 320.6465 214.8985)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "95be44c7-d7f2-4c36-8535-1ff6273d5571")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 322.6465 214.6985) (xy 323.1465 214.6985) (xy 323.1465 214.8985) (xy 322.6465 214.8985)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy 322.6465 214.6985) (xy 323.1465 214.6985) (xy 323.1465 214.8985) (xy 322.6465 214.8985)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/packages3D/HDR-TH_2P-P2.00-F-LI-1X2P.step"
+		(offset
+			(xyz 0.0094 0.016 -2.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

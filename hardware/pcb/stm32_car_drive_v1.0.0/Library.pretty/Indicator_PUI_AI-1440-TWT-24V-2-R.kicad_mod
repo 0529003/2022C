@@ -1,0 +1,139 @@
+(footprint "Indicator_PUI_AI-1440-TWT-24V-2-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "14mm Indicator, https://www.puiaudio.com/media/SpecSheet/AI-1440-TWT-24V-2-R.pdf")
+	(tags "piezo buzzer self drive oscillator")
+	(property "Reference" "REF**"
+		(at 3.8 -8 0)
+		(layer "F.SilkS")
+		(uuid "a024ffcd-7be5-4871-a4ee-2484a59b02f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 3.8 8 0)
+		(layer "F.Fab")
+		(uuid "155b2380-5160-49d9-97d3-ebf9351e16b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Buzzer_Beeper:Indicator_PUI_AI-1440-TWT-24V-2-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a10730e4-7a80-413b-9b02-9948da61c952")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab4e129-1bfe-4f64-9209-0fcf7da1ca6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c603cd31-7c1b-4e33-a652-49845f72607b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -3.2 -0.615)
+		(mid 10.826964 0.00257)
+		(end -3.200448 0.60988)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "215fffcf-0d44-4254-b657-e818f078a101")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 10.95 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "452314e0-a1f6-4ce6-9f14-d0053f90b379")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 10.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1f2116ad-220c-443c-8355-e6f7b111fff4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 0 0)
+		(layer "F.Fab")
+		(uuid "41338ad3-5269-4b5c-a04d-9f02aec38392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147)
+		(uuid "74d4ec27-ae46-4c1d-a13a-0fd66686c793")
+	)
+	(pad "2" thru_hole circle
+		(at 7.6 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8cd52b9-7ee3-448e-8586-635171d8557d")
+	)
+	(model "${KIPRJMOD}/packages3D/Indicator_PUI_AI-1440-TWT-24V-2-R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

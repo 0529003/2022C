@@ -1,0 +1,91 @@
+
+(rules PCB car
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2302)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 300.0 (type default_"kicad_default"))
+    (clear 50.0 (type smd_smd))
+    (clear 300.0 (type smd_"kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    "@:no_net_0" "@:no_net_1"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +12V "Net-(D8-K)" +5V GND +3V3 /PB13 +3.3V "Net-(BZ2--)"
+    "Net-(BZ2-+)" /PC14 /PC15 /PB1 /PA6 /PA7 /PB10 /PC13
+    /PA0 /PA5 /PB0 /PA1 /PA3 /PB11 /PA4 /PA2
+    /PA11 /PB5 /PB12 /PA9 /PB14 /PB6 /PA10 /PA15
+    /PB4 /PB7 /PB8 /PB9 /PB15 /PA8 /PB3 /bb68942b/AOUT2
+    /PA12 /bb68942b/AOUT1 "unconnected-(J3-Pin_1-Pad1)" "Net-(U7-BOOT)" "Net-(U5-ISEN)" "Net-(U8-ISEN)" /stm32f103rct6/RST "/stm32f103rct6/OSC_IN"
+    "Net-(U5-IN2)" "Net-(U8-IN1)" "Net-(U8-IN2)" "Net-(U5-IN1)" "Net-(P1-D-)" /bb68942b/BOUT1 /bb68942b/BOUT2 "/stm32f103rct6/OSC_OUT"
+    "Net-(D2-A)" "Net-(D3-A)" "Net-(P1-D+)" /PB2 "unconnected-(U10-R232-Pad15)" "unconnected-(U10-~{DTR}-Pad13)" "unconnected-(U10-~{RI}-Pad11)" "unconnected-(U10-~{RTS}-Pad14)"
+    "unconnected-(U10-NC-Pad7)" "unconnected-(U10-~{DCD}-Pad12)" "unconnected-(U10-~{CTS}-Pad9)" "unconnected-(U10-~{DSR}-Pad10)" "unconnected-(U10-~{OUT}{slash}~{DTR}-Pad8)" "Net-(D4-A)" "Net-(D5-A)" /PD2
+    "Net-(D6-A)" /PC12 "Net-(D7-A)" /PC9 /PC8 /stm32f103rct6/SWDIO /stm32f103rct6/SWCLK "Net-(P1-VCONN)"
+    "Net-(P1-CC)" "Net-(U7-VSENSE)" /stm32f103rct6/BOOT0 "unconnected-(SW8-C-Pad3)" "Net-(SW8-B)" /PC10 /PC7 /PC0
+    /PC2 /PC4 /PC5 /PC1 /PC6 /PC3 /PC11 "unconnected-(U7-NC-Pad2)"
+    "unconnected-(U7-EN-Pad5)" "unconnected-(U7-NC-Pad3)" "unconnected-(J1-Pad3)" "unconnected-(J26-Pin_6-Pad6)" "unconnected-(J26-Pin_5-Pad5)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -1,0 +1,332 @@
+(footprint "Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf")
+	(tags "HTSOP 1.27")
+	(property "Reference" "REF**"
+		(at -0.25 -3.6 180)
+		(layer "F.SilkS")
+		(uuid "f59ce2d2-8400-4927-a39e-65a30f552d1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DRV8870DDA"
+		(at 0 3.5 180)
+		(layer "F.Fab")
+		(uuid "b4240a41-c7e2-4b01-b10a-4fa726ec0c36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59a84f80-d0dd-4c88-8fab-eae6f5816517")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58628e0e-1341-4218-b31a-bc018eea3a45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a751c40f-e6bc-4039-a06b-142389419097")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(fp_line
+		(start -2.075 -2.575)
+		(end 2.075 -2.575)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8466d95-1359-4559-9a37-7b5a692f444f")
+	)
+	(fp_line
+		(start -2.075 2.575)
+		(end 2.075 2.575)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1807aff3-690b-46a7-9a81-d44c1eb00afc")
+	)
+	(fp_poly
+		(pts
+			(xy -2.675 -2.475) (xy -2.915 -2.805) (xy -2.435 -2.805) (xy -2.675 -2.475)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d7e1e12d-79cf-4e9c-845e-be37a3ac7062")
+	)
+	(fp_line
+		(start -4.2 -2.75)
+		(end -4.2 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21aa05a6-9b2a-421a-bc28-2dcf910402d0")
+	)
+	(fp_line
+		(start -4.2 -2.75)
+		(end 4.2 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b489f012-7b06-4260-b829-da1dc8b2cbfd")
+	)
+	(fp_line
+		(start -4.2 2.75)
+		(end 4.2 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c46ee697-16cd-4e0a-803d-a74cec5a1757")
+	)
+	(fp_line
+		(start 4.2 -2.75)
+		(end 4.2 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99b52125-9fe0-4af5-894f-22788c6fd546")
+	)
+	(fp_line
+		(start -1.95 -1.45)
+		(end -0.95 -2.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "418d4bee-b8fd-47c7-9322-7b3a4e7f41dd")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54b5ac66-5e50-4a4c-b2c8-15f2944ef57e")
+	)
+	(fp_line
+		(start -0.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb6047e2-4569-4e8d-8f50-a2cc21dd50b4")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6a1cfd0-3241-4264-8186-11012d53f977")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b54fc04-8d91-4093-af1a-5e971ac8ef4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "10e7668e-3d48-4aab-b3f2-25801a4b1992")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 2.4 3.1)
+		(layers "F.Paste")
+		(uuid "45f95ed9-ceba-45a5-b412-0842e4d30e7b")
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 2.4 3.1)
+		(layers "F.Mask")
+		(uuid "a3113f5b-2592-4666-a82d-dd561025d6b4")
+	)
+	(pad "1" smd rect
+		(at -2.875 -1.905)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c606c43-3fb3-46e7-a509-ef728e2ffe24")
+	)
+	(pad "2" smd rect
+		(at -2.875 -0.635)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2fe30bad-1783-4d8f-a589-2c768686c753")
+	)
+	(pad "3" smd rect
+		(at -2.875 0.635)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "565afb03-e226-40ad-8bcb-6c9d9b475143")
+	)
+	(pad "4" smd rect
+		(at -2.875 1.905)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b0478e0-2faa-4e9d-bfec-2c8fff2b38c1")
+	)
+	(pad "5" smd rect
+		(at 2.875 1.905)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "021e9fd7-eba7-4929-9c0c-0a3bcb08495d")
+	)
+	(pad "6" smd rect
+		(at 2.875 0.635)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f39f34ab-3e8d-4bf6-89a1-fe290e3a8601")
+	)
+	(pad "7" smd rect
+		(at 2.875 -0.635)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51a93a9f-3533-4576-8f04-756dc5d5c0a5")
+	)
+	(pad "8" smd rect
+		(at 2.875 -1.905)
+		(size 2.2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3186827-6c35-4467-ad20-1563b76b2c92")
+	)
+	(pad "9" thru_hole circle
+		(at -0.65 -1.3)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2cc728e1-7820-4bb7-93e0-4649875c8735")
+	)
+	(pad "9" thru_hole circle
+		(at -0.65 0)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b0000e4-ce27-4b7f-8e6e-20ddb6eeb039")
+	)
+	(pad "9" thru_hole circle
+		(at -0.65 1.3)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "297a8b02-4c90-4f2e-b5ac-b2962d65d549")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.6 3.3)
+		(layers "B.Cu")
+		(uuid "2235a8e9-3c89-4faf-ba65-ce1bf60b1cbc")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.95 4.9)
+		(layers "F.Cu")
+		(uuid "6526a672-548d-48df-bc2f-74db705a8351")
+	)
+	(pad "9" thru_hole circle
+		(at 0.65 -1.3)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5cbdf008-f098-447a-88aa-5ab6c16b9704")
+	)
+	(pad "9" thru_hole circle
+		(at 0.65 0)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "553bc891-e467-45f6-a814-1a01b3fdc446")
+	)
+	(pad "9" thru_hole circle
+		(at 0.65 1.3)
+		(size 0.63 0.63)
+		(drill 0.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7a13966-99b6-4b79-aa82-3ce721a4024a")
+	)
+	(model "${KIPRJMOD}/packages3D/Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.85x4.9mm_Mask2.4x3.1mm_ThermalVias.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
