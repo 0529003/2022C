@@ -11,8 +11,8 @@
 #include "uart_2.h"
 #include "pwm.h"
 #include "yuntai.h"
-#include "motor.h"
-#include "encoder.h"
+//#include "motor.h"
+//#include "encoder.h"
 #include "Buzzer.h"
 
 

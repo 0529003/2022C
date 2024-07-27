@@ -37,8 +37,8 @@ void App_Init(void)
 		OLED_Clear();
 		OLED_ShowString(4, 0, "Im YangBIin", 16);
 	  PWM_Init();
-		ENCODER_INIT();
-		MOTOR_INIT();
+//		ENCODER_INIT();
+//		MOTOR_INIT();
     Yuntai_Control();              // 云台初始化
 		DEBUG_printf("APP", "系统初始化完成~");
 //		Buzzer_ShortBeep(); //测试蜂鸣器
@@ -52,7 +52,7 @@ int App_Task(void)
 	sprintf((char *)str_buff4, "x:%04d y:%04d", x, y);
 	OLED_ShowString(0, 4, str_buff3, 8);
 	OLED_ShowString(0, 5, str_buff4, 8);
-	motorset(-550,150);
+//	motorset(-550,150);
 	  // 参数限幅
     if (pwm_A > 1613)
         pwm_A = Servo_MAX_A;
@@ -78,7 +78,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         {
             LED_Toggle();
 					// 编码器计数
-						encoder_speed();
+//						encoder_speed();
         }
     }
 
